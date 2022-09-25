@@ -1,0 +1,45 @@
+.header {text-align: center;
+    color: Darkgreen;
+   
+}
+
+h2 { 
+  text-align: center;
+}
+
+.navigation {
+  text-align: center;
+  
+}
+.profilepicture {
+  border: 3px Solid Green;
+  
+}
+body {
+  font-family: Geneva, Verdana, sans-serif;
+  color: black;
+  
+}
+.card {
+  width: 50vw;
+  margin: auto;
+  border: 4px solid green;
+  background-color: light yellow;
+  padding: 8px;
+}
+
+.profilepicture {
+    width: 24vw;
+    margin: auto;
+    
+}
+a:hover {color: green;
+}
+
+
+.footer {
+    border: 2px solid green;
+    width: 715px;
+    text-align: center;
+}
+
