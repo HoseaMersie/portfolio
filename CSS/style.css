@@ -1,85 +1,193 @@
 
 .container-1{
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  justify-content:space-around;
   align-items: center;
-  justify-content: space-around;
   border: 1px solid green;
+  border-radius: 10px;
+  overflow: hidden;
+  height: auto;
+  margin: 5vw;
+  background-color: beige;
+  padding: 2vw;
+  text-align: left;
 }
 
-.Box-1 {
-  flex:1;
-  width: 13vw;
-  height: 20vw;
-  margin: 1px;
+.flex {
+  font-size: 30px;
 }
 
-.Box-2 {
+
+.navbar {
+  position:center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  border: 1px solid green;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  background-color: beige;
+}
+
+.navbar a {
+  padding: 8px;
   flex: 1;
-  width: 13vw;
-  height: 20vw;
-  margin: 1px;
+  text-align:space-around;
+  text-decoration: none;
+  color: black;
+  font-size: 1.1em;
+  transition-delay: 0.4s ease-out;
+  margin: auto;
+  
 }
-
-.Box-3 {
-  flex: 1;
-  width: 13vw;
-  height: 13vw;
-  margin: 1px;
+  
+.navbar a:hover {
+    background-color: lightgreen;
 }
-
+  
 .header {
   text-align: center;
-  color: Darkgreen;
+  color: black;
+  margin: 10vh;
+  font-size: xx-large;
 }
 
 h2 { 
   text-align: center;
 }
 
-
-.navigation {
-  display: flex;
-  flex-flow: nowrap;
-  justify-content: flex-start;
-}
-
-.navigation a {
-  flex: 1;
-  text-align: center;
-  background-color: beige;
+.profilepicture {
+  height: 40vh;
+  width: auto;
   border: 1px solid green;
-  border-style: hidden;
+  border-radius: 10px;
+  overflow: hidden;
 }
- 
 
 body {
   font-family: Geneva, Verdana, sans-serif;
-  background-color: rgb(222, 222, 191);
+  background-color: white;
   color: black;
-}
-
-.card {
-  width: 50vw;
-  margin: auto;
-  border: 2px solid green;
-  background-color: rgb(222, 222, 191);
-  padding: 8px;
 }
 
 a:hover {
   color: green; 
 }
 
-.links {
-    color:black;
-}
-
 .footer {
   border: 1px solid green;
   text-align: center;
-  width: 45vw;
+  width: auto;
+  overflow: hidden;
+  padding: 1vw;
+  margin: 5vw;
+  border-radius: 10px;
+  background-color: beige;
+}
+
+input {
+  font-size: 1em;
+}
+
+.p-a {
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+  border: 1px solid green;
+  border-radius: 10px;
+  overflow: hidden;
+  height: auto;
+  margin: 5vw;
+  background-color: beige;
+  padding: 2vw;
+  text-align: left;
+}
+
+.container-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+  border: 1px solid green;
+  border-radius: 10px;
+  overflow: hidden;
+  height: auto;
+  margin: 5vw;
+  background-color: beige;
+  padding: 2vw;
+  text-align: left;
+}
+
+.container-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+  border: 1px solid green;
+  border-radius: 10px;
+  overflow: hidden;
+  height: auto;
+  margin: 5vw;
+  background-color: beige;
+  padding: 2vw;
+  text-align: left;
+}
+
+.container-5 {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+  border: 1px solid green;
+  border-radius: 10px;
+  overflow: hidden;
+  height: auto;
+  margin: 5vw;
+  background-color: beige;
+  padding: 2vw;
+  text-align: left;
+}
+
+.footballpicture {
+  height: 20vh;
+  width:auto;
+  border: 1px solid green;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.readingpicture {
+  height: 20vh;
+  width:auto;
+  border: 1px solid green;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.snowboardpicture {
+  height: 20vh;
+  width:auto;
+  border: 1px solid green;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.klitterwatch {
+  height: 20vh;
+  width:auto;
+  border: 1px solid green;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 /* for telephones*/
@@ -87,13 +195,16 @@ a:hover {
   body{ 
     background-color: yellow;
   }
-   
+  .navbar {
+    flex-direction: column;
+  }
 }
 
 /* for tablets*/
 @media (min-width: 481px) and (max-width: 767px) {
   body{
     background-color: blue;
+    
   }
 }
 
@@ -102,7 +213,6 @@ a:hover {
   body {
    background-color: green;
   }
-
 }
 
 /* for wider monitors*/
